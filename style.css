@@ -1,64 +1,438 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
+.main {
   width: 90%;
-  height: 90vh;
-  /* background-color: yellow; */
-  border: 2px solid blue;
+  height: 100%;
+  /* border: 2px solid black; */
   margin: auto;
 }
 
-.sale {
-  /* width: 1440px; */
-  height: 40px;
-  flex-shrink: 0;
+.container_1 {
+  width: 650px;
+  height: 200px;
+  /* border: 2px solid black; */
+  position: relative;
+  margin: 100px auto 100px auto;
+}
+
+.letter_1 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(76, 76, 249);
+  opacity: 0.8;
+}
+
+.letter_2 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  opacity: 0.8;
+}
+
+.letter_3 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  opacity: 0.8;
+}
+
+.letter_4 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 210px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(143, 3, 57);
+  opacity: 0.8;
+}
+
+.letter_5 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+  opacity: 0.8;
+}
+
+.letter_6 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 385px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  opacity: 0.8;
+}
+
+.letter_7 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(76, 76, 249);
+  opacity: 0.8;
+}
+
+.letter_8 {
+  width: 100px;
+  height: 100px;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  /* top: 250px; */
+  left: 535px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellowgreen;
+  opacity: 0.8;
+}
+
+.container_2 {
+  width: 800px;
+  height: 700px;
+  /* border: 2px solid black; */
+  position: relative;
+  margin: 200px auto 100px auto;
+}
+
+.box_1 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #d6286f 50%, #991723 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  top: 35px;
+  opacity: 0.9;
+}
+
+.box_2 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #cf2c1d 50%, #ee7f54 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 420px;
+  top: 70px;
+  opacity: 0.9;
+}
+
+.box_3 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #eb4825 50%, #feb781 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 210px;
+  top: 245px;
+  opacity: 0.9;
+}
+
+.box_4 {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(to bottom right, #1d4425 50%, #172119 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 140px;
+  top: 190px;
+  opacity: 0.9;
+}
+
+.box_5 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #518861 50%, #1c3015 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 300px;
+  top: 130px;
+  opacity: 0.9;
+}
+
+.box_6 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #246239 50%, #7ab798 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 230px;
+  opacity: 0.9;
+}
+
+.box_7 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, #46dee3 50%, #048fae 50%);
+  position: absolute;
+  transform: rotate(45deg);
+  left: 230px;
+  top: 70px;
+  opacity: 0.9;
+}
+
+.text_1 {
+  font-size: 120px;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  text-shadow: 17px -10px 0px #0000006e;
+}
+
+.text_2 {
+  font-size: 120px;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 120px;
+  left: 300px;
+  text-shadow: 17px -10px 0px #0000006e;
+}
+
+.text_3 {
+  font-size: 120px;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 495px;
+  text-shadow: 17px -10px 0px #0000006e;
+}
+
+.container_3 {
+  width: 950px;
+  height: 700px;
+  border: 2px solid black;
+  margin: 0px auto 50px auto;
+  background-color: rgb(40, 40, 40);
+  padding: 15px;
+}
+
+.container_3 .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_3 .nav_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.container_3 .nav_link {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.container_3 .link_1 {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+}
+
+.container_3 .nav_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 100px;
+}
+
+.container_3 .nav_icon .nav_icon_2 {
+  width: 25px;
+  height: 25px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_3 .nav_icon .icon {
+  color: white;
+  font-size: 20px;
+}
+
+/* <!-- starting "Rosaline mini proyect" section -->  */
+
+.basic {
+  width: 900px;
+  height: 380px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+.basic_left {
+  width: 400px;
+  display: flex;
+  position: relative;
   /* background-color: yellow; */
-  color: #000;
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+}
+
+.rasline {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+  width: 150px;
+  font-size: 60px;
+  color: white;
+  margin-left: 70px;
 }
 
-.sale_holiday {
-  color: #997f72;
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.left_img {
+  width: 250px;
+  position: absolute;
+  left: 150px;
 }
 
-.navbar {
-  /* width: 1440px; */
-  height: 48px;
-  flex-shrink: 0;
-  background: #2c2c2e;
+.basic_right {
+  width: 300px;
+  /* background-color: green; */
+}
+
+.box_figure {
+  width: 180px;
+  height: 130px;
+  border: 5px solid red;
+}
+
+.right_link {
+  color: red;
+  margin-left: 25px;
+}
+
+.right_header {
+  width: 250px;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  margin: 15px 0px 15px 25px;
+}
+
+.right_text {
+  width: 280px;
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.right_contact {
+  margin: 15px 0px 15px 25px;
+}
+
+.right_contact_tel {
+  color: red;
+}
+
+.about {
   display: flex;
-  justify-content: center;
-  gap: 45px;
-  color: var(--primary-white, #fff);
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  margin: 50px 0px 50px 120px;
+  gap: 30px;
+}
+
+.about_left {
+  width: 300px;
+}
+
+.left_about_link {
+  color: red;
+}
+
+.left_about_header {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.left_about_text {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+
+.left_about_experience {
+  display: flex;
+  gap: 10px;
   align-items: center;
 }
 
-.nav_picture1 {
-  width: 30px;
-  height: 30px;
+.year {
+  font-size: 48px;
+  color: red;
+  font-weight: 900;
 }
+
+.experience_text {
+  width: 70px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about_right_header {
+  width: 220px;
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+}
+
+.about_right_text {
+  color: rgb(173, 173, 173);
+  margin: 5px 0px 10px 0px;
+}
+
+.about_right_bottom {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.about_right_link {
+  color: red;
+  margin-top: 10px;
+}
+
+/* ending "Rosaline mini proyect" section */
