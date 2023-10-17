@@ -301,10 +301,30 @@
   font-size: 50px;
   color: yellow;
   text-decoration: none;
-  transition: all 0.3s linear;
+  border-bottom: 5px solid rgb(0, 255, 115);
+  position: relative;
+}
+
+.nav_border {
+  width: 120px;
+  height: 5px;
+  background-color: blue;
+  position: absolute
+
+
 }
 
 .navbar .nav:hover {
   color: white;
-  /* border-bottom: 5px solid white; */
+  border-bottom: 5px solid white;
+  animation: bored_go 3s linear;
+}
+
+@keyframes bored_go {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(50px);
+  }
 }
